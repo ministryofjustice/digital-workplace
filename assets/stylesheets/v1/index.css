@@ -1,0 +1,213 @@
+/* line 1, ../../sass/v1/_common.scss */
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+/* line 1, ../../sass/v1/_reset.scss */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 6, ../../sass/v1/_reset.scss */
+img {
+  /*border: none;*/
+}
+
+/* line 10, ../../sass/v1/_reset.scss */
+ul {
+  list-style-type: none;
+}
+
+/* line 14, ../../sass/v1/_reset.scss */
+ul ul {
+  padding-left: 10px;
+}
+
+/* line 18, ../../sass/v1/_reset.scss */
+input {
+  border: 1px solid #555;
+}
+
+/* line 1, ../../sass/v1/_base.scss */
+a {
+  text-decoration: none;
+}
+/* line 4, ../../sass/v1/_base.scss */
+a:hover {
+  text-decoration: underline;
+}
+
+/* line 1, ../../sass/v1/_typography.scss */
+div, span, p, li, h1, h2, h3, h4, h5, h6 {
+  font-family: arial, sans-serif;
+}
+
+/* line 5, ../../sass/v1/_typography.scss */
+.sub-header .dwp-nav .list-label {
+  font-size: 10px;
+}
+
+/* line 9, ../../sass/v1/_typography.scss */
+header .top-nav a {
+  font-size: 11px;
+}
+
+/* line 13, ../../sass/v1/_typography.scss */
+footer .information ul li a,
+footer .other ul li a, .sub-header .search p, .sub-header .dwp-nav li a {
+  font-size: 12px;
+}
+
+/* line 21, ../../sass/v1/_typography.scss */
+footer h5 {
+  font-size: 16px;
+}
+
+/* line 29, ../../sass/v1/_typography.scss */
+.sub-header .search h1 {
+  font-size: 24px;
+}
+
+/* line 1, ../../sass/v1/_layout.scss */
+body {
+  width: 800px;
+  margin: 0 auto;
+  border: 1px solid #000;
+}
+
+/* line 1, ../../sass/v1/shared/_header.scss */
+header {
+  background-color: #0b0c0c;
+}
+/* line 4, ../../sass/v1/shared/_header.scss */
+header .logo,
+header .top-nav {
+  display: block;
+  width: 50%;
+}
+/* line 10, ../../sass/v1/shared/_header.scss */
+header .logo {
+  float: left;
+  color: #fff;
+  margin: 5px 0;
+}
+/* line 16, ../../sass/v1/shared/_header.scss */
+header .top-nav {
+  float: right;
+  line-height: 80%;
+  margin: 5px 0;
+}
+/* line 21, ../../sass/v1/shared/_header.scss */
+header .top-nav li {
+  display: inline-block;
+  margin-right: 10px;
+}
+/* line 26, ../../sass/v1/shared/_header.scss */
+header .top-nav a {
+  color: #fff;
+}
+
+/* line 1, ../../sass/v1/shared/_footer.scss */
+footer {
+  border-top: 10px solid #aaa;
+  background-color: #eee;
+  padding: 40px 10px 10px;
+}
+/* line 6, ../../sass/v1/shared/_footer.scss */
+footer .footer-inner {
+  border-bottom: 1px solid #777;
+  padding-bottom: 30px;
+  margin-bottom: 50px;
+}
+/* line 12, ../../sass/v1/shared/_footer.scss */
+footer h5 {
+  padding-bottom: 5px;
+  border-bottom: 1px solid #777;
+}
+/* line 20, ../../sass/v1/shared/_footer.scss */
+footer .information ul,
+footer .other ul {
+  margin-top: 20px;
+}
+/* line 23, ../../sass/v1/shared/_footer.scss */
+footer .information ul li a,
+footer .other ul li a {
+  color: #777;
+  text-decoration: underline;
+}
+/* line 31, ../../sass/v1/shared/_footer.scss */
+footer .information {
+  float: left;
+  width: 65%;
+}
+/* line 35, ../../sass/v1/shared/_footer.scss */
+footer .information ul {
+  float: left;
+  width: 50%;
+}
+/* line 41, ../../sass/v1/shared/_footer.scss */
+footer .other {
+  float: right;
+  width: 33%;
+}
+
+/* line 1, ../../sass/v1/homepage/_sub_header.scss */
+.sub-header {
+  background-color: #aaa;
+}
+/* line 4, ../../sass/v1/homepage/_sub_header.scss */
+.sub-header .search {
+  float: left;
+  width: 67%;
+}
+/* line 8, ../../sass/v1/homepage/_sub_header.scss */
+.sub-header .search .search-inner {
+  margin-top: 20px;
+  margin-left: 10px;
+}
+/* line 13, ../../sass/v1/homepage/_sub_header.scss */
+.sub-header .search h1 {
+  color: #fff;
+}
+/* line 18, ../../sass/v1/homepage/_sub_header.scss */
+.sub-header .search p {
+  margin-top: 10px;
+  color: #fff;
+}
+/* line 24, ../../sass/v1/homepage/_sub_header.scss */
+.sub-header .search .search-bar {
+  margin-top: 20px;
+}
+/* line 27, ../../sass/v1/homepage/_sub_header.scss */
+.sub-header .search .search-bar input {
+  height: 30px;
+  width: 90%;
+  border-width: 0;
+  padding: 0 10px;
+}
+/* line 39, ../../sass/v1/homepage/_sub_header.scss */
+.sub-header .dwp-nav {
+  float: right;
+  width: 33%;
+}
+/* line 43, ../../sass/v1/homepage/_sub_header.scss */
+.sub-header .dwp-nav .dwp-nav-inner {
+  background-color: #0b0c0c;
+  margin-right: 10px;
+  margin-top: 20px;
+  padding: 5px 10px;
+}
+/* line 51, ../../sass/v1/homepage/_sub_header.scss */
+.sub-header .dwp-nav .list-label {
+  color: #fff;
+}
+/* line 56, ../../sass/v1/homepage/_sub_header.scss */
+.sub-header .dwp-nav li a {
+  color: #fff;
+  text-decoration: underline;
+}
