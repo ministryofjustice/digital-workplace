@@ -1,7 +1,7 @@
 <div class="sub-header clearfix grid grid-pad">
   <div class="search col-2-3">
     <div class="search-inner">
-      <h1>Welcome to Digital Work Place</h1>
+      <h1><!--Welcome to -->Digital Work Place</h1>
       <p>
         Digital work place services and information<br />
         Simpler, clearer, faster

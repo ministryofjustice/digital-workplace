@@ -6,17 +6,17 @@ article.news-item {
   }
 
   .timestamp {
-    @extend %smaller-text;
+    @extend %medium-copy;
     color: #bbb;
   }
 
   h3 {
-    @extend %large-text;
+    @extend %large-heading;
     margin-top: 5px;
     margin-bottom: 10px;
   }
 
   .content {
-    @extend %smaller-text;
+    @extend %medium-copy;
   }
 }

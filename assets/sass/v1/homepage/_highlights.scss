@@ -1,5 +1,7 @@
-.content-homepage {
-  .highlights {
-    background-color: #e7e7e7;
+.content-homepage .highlights {
+  background-color: #e7e7e7;
+
+  h2 {
+    @extend %larger-heading;
   }
 }

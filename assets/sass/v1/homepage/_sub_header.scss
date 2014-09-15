@@ -7,14 +7,14 @@
     }
 
     h1 {
+      @extend %largest-heading;
       color: #fff;
-      @extend %largest-text;
     }
 
     p {
       margin-top: 10px;
+      @extend %body-copy;
       color: #fff;
-      @extend %small-text;
     }
 
     .search-bar {
@@ -33,7 +33,6 @@
   }
 
   .dwp-nav {
-
     .dwp-nav-inner {
       background-color: #0b0c0c;
       margin-top: 10px;
@@ -42,12 +41,17 @@
 
 
     .list-label {
-      @extend %smallest-text;
+      @extend %small-copy;
       color: #fff;
     }
 
+    ul {
+      margin: 10px 0;
+    }
+
     li a {
-      @extend %small-text;
+      @extend %medium-copy;
+      font-weight: bold;
       color: #fff;
       text-decoration: underline;
     }

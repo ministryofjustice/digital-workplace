@@ -4,7 +4,7 @@ footer {
   padding-top: 30px;
 
   h5 {
-    @extend %large-text;
+    @extend %large-heading;
     padding-bottom: 5px;
     border-bottom: 1px solid #777;
   }
@@ -13,7 +13,8 @@ footer {
     margin-top: 10px;
 
     li a {
-      @extend %small-text;
+      line-height: 150%;
+      @extend %medium-copy;
       color: #777;
       text-decoration: underline;
     }

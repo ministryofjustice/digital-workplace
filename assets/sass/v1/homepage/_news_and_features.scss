@@ -1,17 +1,15 @@
 .content-homepage {
   .news-and-features {
     .news-top-links {
-      line-height: 90%;
 
       a {
-        @extend %small-text;
-        font-weight: bold;
+        @extend %large-copy;
         color: #aaa;
       }
     }
 
     .news-description {
-      @extend %small-text;
+      @extend %large-copy;
     }
 
     .news-list {
@@ -28,12 +26,12 @@
       }
 
       h3 {
-        @extend %large-text;
+        @extend %large-heading;
         margin-bottom: 5px;
       }
 
       .timestamp {
-        @extend %smaller-text;
+        @extend %medium-copy;
         color: #bbb;
       }
     }

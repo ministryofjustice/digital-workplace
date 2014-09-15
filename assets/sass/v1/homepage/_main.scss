@@ -1,12 +1,13 @@
 .content-homepage {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 15px;
+  margin-bottom: 15px;
   background-color: #fff;
 
   .category-heading {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     padding-bottom: 5px;
     border-bottom: 1px solid #555;
+    @extend %larger-heading;
   }
 
   .link-list {
@@ -17,23 +18,25 @@
       }
 
       h4 {
-        @extend %small-text;
+        @extend %medium-heading;
         margin-bottom: 10px;
       }
 
       p {
-        @extend %smallest-text;
-        margin-bottom: 20px;
+        @extend %small-copy;
+        margin-bottom: 30px;
       }
     }
   }
 
   .more {
-    margin-top: 35px;
+    margin-top: 30px;
     border-top: 1px solid #555;
 
     a {
-      @extend %smaller-text;
+      display: block;
+      margin-top: 10px;
+      @extend %medium-copy;
       text-decoration: underline;
       color: #000;
     }
