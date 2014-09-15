@@ -1,7 +1,38 @@
 .content-homepage {
+  margin-bottom: 20px;
+
   .category-heading {
     margin-bottom: 20px;
     padding-bottom: 5px;
     border-bottom: 1px solid #555;
+  }
+
+  .link-list {
+    li {
+      a {
+        color: #000;
+      }
+
+      h4 {
+        @extend %small-text;
+        margin-bottom: 10px;
+      }
+
+      p {
+        @extend %smallest-text;
+        margin-bottom: 20px;
+      }
+    }
+  }
+
+  .more {
+    margin-top: 35px;
+    border-top: 1px solid #555;
+
+    a {
+      @extend %smaller-text;
+      text-decoration: underline;
+      color: #000;
+    }
   }
 }

@@ -1,0 +1,41 @@
+.content-homepage {
+  .news-and-features {
+    .news-top-links {
+      line-height: 90%;
+
+      a {
+        @extend %small-text;
+        font-weight: bold;
+        color: #aaa;
+      }
+    }
+
+    .news-description {
+      @extend %small-text;
+    }
+
+    .news-list {
+      li {
+        margin-bottom: 30px;
+
+        &:last-of-type {
+          margin-bottom: 0;
+        }
+      }
+
+      a {
+        color: #000;
+      }
+
+      h3 {
+        @extend %large-text;
+        margin-bottom: 5px;
+      }
+
+      .timestamp {
+        @extend %smaller-text;
+        color: #bbb;
+      }
+    }
+  }
+}
