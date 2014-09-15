@@ -1,0 +1,21 @@
+article.news-item {
+  img {
+    display: block;
+    width: 100%;
+  }
+
+  .timestamp {
+    @extend %smaller-text;
+    color: #bbb;
+  }
+
+  h3 {
+    @extend %large-text;
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+
+  .content {
+    @extend %smaller-text;
+  }
+}
