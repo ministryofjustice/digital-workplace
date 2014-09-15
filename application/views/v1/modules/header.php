@@ -1,7 +1,7 @@
-<header class="clearfix">
-  <span class="logo">Ministry of Justice</span>
+<header class="page-header clearfix grid grid-pad">
+  <span class="logo col-1-2">Ministry of Justice</span>
 
-  <nav class="top-nav">
+  <nav class="top-nav col-1-2">
     <ul>
       <li>
         <a href="">Home</a>

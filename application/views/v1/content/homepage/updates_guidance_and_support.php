@@ -1,12 +1,14 @@
-<div class="content-row grid grid-pad">
-  <div class="col-1-3">
-    <h2 class="category-heading">Updates</h2>
-  </div>
-  <div class="col-2-3">
-    <h2 class="category-heading">Guidance &amp; Support</h2>
+<div class="content-row updates-guidance-and-support">
+  <div class="grid grid-pad">
+    <div class="col-1-3">
+      <h2 class="category-heading">Updates</h2>
+    </div>
+    <div class="col-2-3">
+      <h2 class="category-heading">Guidance &amp; Support</h2>
+    </div>
   </div>
 
-  <div>
+  <div class="grid grid-pad">
     <article class="news-item col-1-3">
       <img src="" />
       <span class="timestamp">29 August 2014</span>

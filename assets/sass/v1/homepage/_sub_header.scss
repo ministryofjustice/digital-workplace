@@ -2,12 +2,8 @@
   background-color: #aaa;
 
   .search {
-    float: left;
-    width: 67%;
-
     .search-inner {
-      margin-top: 20px;
-      margin-left: 10px;
+      margin-top: 10px;
     }
 
     h1 {
@@ -37,13 +33,10 @@
   }
 
   .dwp-nav {
-    float: right;
-    width: 33%;
 
     .dwp-nav-inner {
       background-color: #0b0c0c;
-      margin-right: 10px;
-      margin-top: 20px;
+      margin-top: 10px;
       padding: 5px 10px;
     }
 

@@ -1,13 +1,7 @@
 footer {
   border-top: 10px solid #aaa;
   background-color: #eee;
-  padding: 40px 10px 10px;
-
-  .footer-inner {
-    border-bottom: 1px solid #777;
-    padding-bottom: 30px;
-    margin-bottom: 50px;
-  }
+  padding-top: 30px;
 
   h5 {
     @extend %large-text;
@@ -15,31 +9,20 @@ footer {
     border-bottom: 1px solid #777;
   }
 
-  .information,
-  .other {
-    ul {
-      margin-top: 20px;
+  ul {
+    margin-top: 10px;
 
-      li a {
-        @extend %small-text;
-        color: #777;
-        text-decoration: underline;
-      }
+    li a {
+      @extend %small-text;
+      color: #777;
+      text-decoration: underline;
     }
   }
 
-  .information {
-    float: left;
-    width: 65%;
-
-    ul {
-      float: left;
-      width: 50%;
-    }
-  }
-
-  .other {
-    float: right;
-    width: 33%;
+  .separator {
+    display: block;
+    border-bottom: 1px solid #777;
+    margin-bottom: 40px;
+    padding-bottom: 30px;
   }
 }
