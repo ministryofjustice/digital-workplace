@@ -7,7 +7,7 @@ article.news-item {
 
   .timestamp {
     @extend %medium-copy;
-    color: #bbb;
+    color: $grey-2;
   }
 
   h3 {

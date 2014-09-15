@@ -4,7 +4,7 @@
 
       a {
         @extend %large-copy;
-        color: #aaa;
+        color: #aaa; /* colour non-existent in colours.scss */
       }
     }
 
@@ -22,7 +22,7 @@
       }
 
       a {
-        color: #000;
+        color: $black;
       }
 
       h3 {
@@ -32,7 +32,7 @@
 
       .timestamp {
         @extend %medium-copy;
-        color: #bbb;
+        color: $grey-2;
       }
     }
   }

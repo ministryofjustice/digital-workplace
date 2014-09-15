@@ -1,5 +1,5 @@
 .sub-header {
-  background-color: #aaa;
+  background-color: #aaa; /* colour non-existent in colours.scss */
 
   .search {
     .search-inner {
@@ -8,13 +8,13 @@
 
     h1 {
       @extend %largest-heading;
-      color: #fff;
+      color: $white;
     }
 
     p {
       margin-top: 10px;
       @extend %body-copy;
-      color: #fff;
+      color: $white;
     }
 
     .search-bar {
@@ -34,7 +34,7 @@
 
   .dwp-nav {
     .dwp-nav-inner {
-      background-color: #0b0c0c;
+      background-color: $black;
       margin-top: 10px;
       padding: 5px 10px;
     }
@@ -42,7 +42,7 @@
 
     .list-label {
       @extend %small-copy;
-      color: #fff;
+      color: $white;
     }
 
     ul {
@@ -52,7 +52,7 @@
     li a {
       @extend %medium-copy;
       font-weight: bold;
-      color: #fff;
+      color: $white;
       text-decoration: underline;
     }
   }

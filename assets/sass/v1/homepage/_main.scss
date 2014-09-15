@@ -1,12 +1,12 @@
 .content-homepage {
   margin-top: 15px;
   margin-bottom: 15px;
-  background-color: #fff;
+  background-color: $white;
 
   .category-heading {
     margin-bottom: 10px;
     padding-bottom: 5px;
-    border-bottom: 1px solid #555;
+    border-bottom: 1px solid $border-colour;
     @extend %larger-heading;
   }
 
@@ -14,7 +14,7 @@
     li {
       a {
         display: block;
-        color: #000;
+        color: $black;
       }
 
       h4 {
@@ -31,14 +31,14 @@
 
   .more {
     margin-top: 30px;
-    border-top: 1px solid #555;
+    border-top: 1px solid $border-colour;
 
     a {
       display: block;
       margin-top: 10px;
       @extend %medium-copy;
       text-decoration: underline;
-      color: #000;
+      color: $black;
     }
   }
 }

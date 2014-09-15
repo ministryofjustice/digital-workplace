@@ -1,5 +1,5 @@
 header.page-header {
-  background-color: #0b0c0c;
+  background-color: $black;
   padding-top: 0;
 
   .logo,
@@ -9,7 +9,7 @@ header.page-header {
 
   .logo {
     float: left;
-    color: #fff;
+    color: $white;
     margin: 5px 0;
   }
 
@@ -24,7 +24,7 @@ header.page-header {
 
     a {
       @extend %small-copy;
-      color: #fff;
+      color: $white;
     }
   }
 }
