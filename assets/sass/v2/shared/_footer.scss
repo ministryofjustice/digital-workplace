@@ -1,0 +1,29 @@
+footer {
+  border-top: 10px solid $border-colour;
+  background-color: $grey-3;
+  padding-top: 30px;
+
+  h5 {
+    @extend %large-heading;
+    padding-bottom: 5px;
+    border-bottom: 1px solid $border-colour;
+  }
+
+  ul {
+    margin-top: 10px;
+
+    li a {
+      line-height: 200%;
+      @extend %medium-copy;
+      color: #454a4c;
+      text-decoration: underline;
+    }
+  }
+
+  .separator {
+    display: block;
+    border-bottom: 1px solid $border-colour;
+    margin-bottom: 40px;
+    padding-bottom: 30px;
+  }
+}

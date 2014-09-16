@@ -1,0 +1,22 @@
+article.news-item {
+  img {
+    display: block;
+    width: 100%;
+    margin-bottom: 5px;
+  }
+
+  .timestamp {
+    @extend %medium-copy;
+    color: $grey-2;
+  }
+
+  h3 {
+    @extend %large-heading;
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+
+  .content {
+    @extend %medium-copy;
+  }
+}

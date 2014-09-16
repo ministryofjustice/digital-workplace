@@ -1,0 +1,32 @@
+header.page-header {
+  background-color: #333;
+
+  .logo {
+    display: block;
+    float: left;
+    color: $white;
+    margin: 5px 0;
+  }
+
+  .search {
+    .search-inner {
+      position: relative;
+    }
+
+    input[type="text"] {
+      @extend %small-copy;
+      width: 100%;
+      padding: 5px;
+    }
+
+    input[type="submit"] {
+      position: absolute;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      border: none;
+      background-color: #666;
+      padding: 5px 10px;
+    }
+  }
+}

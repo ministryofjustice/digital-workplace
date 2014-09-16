@@ -1,0 +1,50 @@
+.content-homepage .sub-header {
+  height: 60px;
+  background-color: #333; /* colour non-existent in colours.scss */
+  position: relative;
+
+  .tabs {
+    ul {
+      position: absolute;
+      bottom: 1px;
+      left: 1px;
+      display: inline-block;
+      border-top: 1px solid $white;
+    }
+
+    li {
+      float: left;
+      border-right: 1px solid $white;
+    }
+
+    a {
+      @extend %small-copy;
+      text-align: center;
+      min-width: 150px;
+      display: block;
+      padding: 15px 20px;
+      background-color: $grey-2;
+      color: #333;
+    }
+  }
+
+  .top-nav {
+    ul {
+      float: right;
+    }
+
+    li {
+      display: inline-block;
+      margin-right: 20px;
+
+      &:last-of-type {
+        margin-right: 0;
+      }
+    }
+
+    a {
+      color: $grey-3;
+      text-decoration: underline;
+    }
+  }
+}
