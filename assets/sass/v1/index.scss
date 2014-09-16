@@ -2,15 +2,15 @@
 @import '../vendor/simplegrid';
 
 /* definitions */
-@import 'colours';
-@import 'mixins';
+@import '../shared/mixins';
+@import '../shared/colours';
 
-/*  */
-@import 'common';
-@import 'reset';
-@import 'base';
-@import 'typography';
-@import 'layout';
+/* global */
+@import '../shared/common';
+@import '../shared/reset';
+@import '../shared/base';
+@import '../shared/typography';
+@import '../shared/layout';
 
 @import 'shared/import';
 @import 'homepage/import';
