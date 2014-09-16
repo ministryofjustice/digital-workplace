@@ -1,6 +1,6 @@
 <footer>
   <div class="grid grid-pad">
-    <div class="col-2-3">
+    <div class="col-1-3">
       <h5>Information</h5>
     </div>
     <div class="col-1-3">
@@ -10,78 +10,28 @@
   <div class="grid grid-pad">
     <ul class="information col-1-3">
       <li>
-        <a href="">HR</a>
+        <a href="">Corporate blog</a>
       </li>
       <li>
-        <a href="">Building & facilities</a>
+        <a href="">GOV.UK</a>
       </li>
       <li>
-        <a href="">Financial management</a>
+        <a href="">RSS feeds</a>
       </li>
       <li>
-        <a href="">Security</a>
+        <a href="">Intranet feedback form</a>
       </li>
       <li>
-        <a href="">IT Services</a>
+        <a href="">Submit a news story</a>
       </li>
       <li>
-        <a href="">Fire, health & safety</a>
+        <a href="">Help</a>
       </li>
       <li>
-        <a href="">Commercial & contract management</a>
+        <a href="">Cookies</a>
       </li>
       <li>
-        <a href="">Communications</a>
-      </li>
-      <li>
-        <a href="">Knowledge & information</a>
-      </li>
-      <li>
-        <a href="">Change management</a>
-      </li>
-      <li>
-        <a href="">Legal</a>
-      </li>
-      <li>
-        <a href="">Risk management</a>
-      </li>
-    </ul>
-    <ul class="information col-1-3">
-      <li>
-        <a href="">Charities & volunteering</a>
-      </li>
-      <li>
-        <a href="">Nominations</a>
-      </li>
-      <li>
-        <a href="">Social media</a>
-      </li>
-      <li>
-        <a href="">Devotion</a>
-      </li>
-      <li>
-        <a href="">Policy making</a>
-      </li>
-      <li>
-        <a href="">Statisitics & survey results</a>
-      </li>
-      <li>
-        <a href="">Equality & diversity</a>
-      </li>
-      <li>
-        <a href="">Public consultation guidance</a>
-      </li>
-      <li>
-        <a href="">Sustainable developement</a>
-      </li>
-      <li>
-        <a href="">Internal audit</a>
-      </li>
-      <li>
-        <a href="">Research & analysis</a>
-      </li>
-      <li>
-        <a href="">Working with Arm's Length Bodies</a>
+        <a href="">Contact</a>
       </li>
     </ul>
 
