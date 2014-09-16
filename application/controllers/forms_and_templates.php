@@ -7,6 +7,6 @@ class Forms_and_templates extends CI_Controller {
       'top_class'=>'content-forms-and-templates'
     ];
 
-		$this->load->view('v1/layouts/default', $data);
+		$this->load->view('v'.version().'/layouts/default', $data);
 	}
 }
