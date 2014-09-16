@@ -1,0 +1,17 @@
+.content-forms-and-templates .sub-header {
+  background-color: $grey-2;
+
+  .top-downloads {
+    margin-bottom: 30px;
+    margin-top: 10px;
+
+    ul {
+      line-height: 150%;
+    }
+
+    a {
+      color: $black;
+      text-decoration: underline;
+    }
+  }
+}

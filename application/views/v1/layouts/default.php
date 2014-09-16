@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html class="<?=$top_class?>">
 <head>
   <?php $this->load->view('v1/modules/head'); ?>
 </head>

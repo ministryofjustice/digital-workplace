@@ -1,10 +1,10 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-class Homepage extends CI_Controller {
+class Forms_and_templates extends CI_Controller {
 	public function index() {
     $data = [
-      'page'=>'homepage/main',
-      'top_class'=>'content-homepage'
+      'page'=>'forms_and_templates/main',
+      'top_class'=>'content-forms-and-templates'
     ];
 
 		$this->load->view('v1/layouts/default', $data);

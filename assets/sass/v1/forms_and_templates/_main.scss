@@ -1,0 +1,49 @@
+.content-forms-and-templates .content {
+  .filter-by {
+    background-color: $grey-3;
+    padding: 10px;
+
+    .form-label {
+      @extend %large-copy;
+      font-weight: bold;
+    }
+
+    select,
+    input[type="text"] {
+      width: 100%;
+      margin: 5px 0;
+    }
+
+    input[type="submit"] {
+      width: 100px;
+      margin-top: 15px;
+    }
+  }
+
+  .item-path {
+    padding-left: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    li, a {
+      color: $grey-2;
+    }
+
+    li {
+      display: inline-block;
+      &:after {
+        content: ">";
+      }
+
+      &:last-of-type:after {
+        content: "";
+      }
+    }
+  }
+
+  .results {
+    > li {
+      margin-bottom: 45px;
+    }
+  }
+}
