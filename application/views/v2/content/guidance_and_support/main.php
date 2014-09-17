@@ -12,22 +12,28 @@
     </ul>
   </div>
 
-  <div class="search grid grid-pad">
-    <form>
+  <form class="search grid grid-pad">
+    <div class="col-1-3">
       <select>
         <option>Categories</option>
         <option>Option 2</option>
         <option>Option 3</option>
       </select>
+    </div>
+    <div class="input-container col-2-3">
       <input type="text" placeholder="Forms &amp; templates" />
-      <input type="submit" value="Search" />
-    </form>
-  </div>
+      <input type="submit" value="&#x1f50d;" />
+    </div>
+  </form>
 
   <div class="grid grid-pad">
     <div class="col-1-1">
       <h2 class="category-heading">Guidance &amp; support</h2>
     </div>
+  </div>
+
+  <div class="grid grid-pad">
+    <p class="intro col-3-4 push-1-4">Reference material and guidance to help you at work, policies and procedures, support and welfare.</p>
   </div>
 
   <ul class="link-list grid grid-pad">
@@ -80,4 +86,10 @@
       </a>
     </li>
   </ul>
+
+  <div class="grid grid-pad">
+    <div class="more">
+      <a href="">See all</a>
+    </div>
+  </div>
 </div>
