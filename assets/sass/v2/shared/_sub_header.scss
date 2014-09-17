@@ -1,4 +1,4 @@
-.content-homepage .sub-header {
+.sub-header {
   height: 60px;
   background-color: #333; /* colour non-existent in colours.scss */
   position: relative;
@@ -6,7 +6,7 @@
   .tabs {
     ul {
       position: absolute;
-      bottom: 1px;
+      bottom: 0px;
       left: 1px;
       display: inline-block;
       border-top: 1px solid $white;
@@ -15,6 +15,7 @@
     li {
       float: left;
       border-right: 1px solid $white;
+      border-bottom: 1px solid transparent;
     }
 
     a {
@@ -22,9 +23,17 @@
       text-align: center;
       min-width: 150px;
       display: block;
-      padding: 15px 20px;
+      padding: 10px 20px;
       background-color: $grey-2;
       color: #333;
+    }
+
+    .selected {
+      border-bottom: 1px solid $white;
+      
+      a {
+        background-color: $white;
+      }
     }
   }
 
