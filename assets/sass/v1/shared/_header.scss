@@ -8,9 +8,23 @@ header.page-header {
   }
 
   .logo {
+    display: block;
     float: left;
-    color: $white;
-    margin: 5px 0;
+    border-left: 2px solid $white;
+    margin: 10px 0;
+
+    img {
+      margin: 0 10px;
+      width: 40px;
+    }
+
+    span {
+      @extend %large-heading;
+      vertical-align: bottom;
+      color: $white;
+      font-weight: normal;
+      line-height: 40px;
+    }
   }
 
   .top-nav {

@@ -7,8 +7,8 @@
         Simpler, clearer, faster
       </p>
       <div class="search-bar">
-        <input type="text" />
-        <span class="search-icon"></span>
+        <input type="text" placeholder="Intranet search" />
+        <input type="submit" value="&#x1f50d;" />
       </div>
     </div>
   </div>

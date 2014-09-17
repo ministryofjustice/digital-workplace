@@ -2,9 +2,6 @@
   background-color: #aaa; /* colour non-existent in colours.scss */
 
   .search {
-    .search-inner {
-      margin-top: 10px;
-    }
 
     h1 {
       @extend %largest-heading;
@@ -18,13 +15,25 @@
     }
 
     .search-bar {
+      position: relative;
       margin-top: 20px;
+      width: 90%;
 
-      input {
-        height: 30px;
-        width: 90%;
+      input[type="text"] {
+        width: 100%;
+        height: 40px;
         border-width: 0;
         padding: 0 10px;
+      }
+
+      input[type="submit"] {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        border-bottom: 0;
+        background-color: $grey-1;
+        padding: 5px 10px;
       }
 
       .search-icon {
