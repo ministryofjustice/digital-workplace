@@ -1,5 +1,8 @@
 <header class="page-header clearfix grid grid-pad">
-  <span class="logo col-1-2">Ministry of Justice</span>
+  <div class="logo col-1-2">
+    <img src="assets/images/logo.png" />
+    <span>Ministry of Justice</span>
+  </div>
 
   <nav class="top-nav col-1-2">
     <ul>

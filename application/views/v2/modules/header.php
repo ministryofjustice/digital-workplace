@@ -1,5 +1,8 @@
 <header class="page-header grid grid-pad">
-  <span class="logo col-2-3">Ministry of Justice</span>
+  <div class="logo col-2-3">
+    <img src="assets/images/logo.png" />
+    <span>Ministry of Justice</span>
+  </div>
 
   <div class="search col-1-3">
     <div class="search-inner">

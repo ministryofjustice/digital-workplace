@@ -1,7 +1,7 @@
 <footer>
   <div class="grid grid-pad">
     <div class="col-1-3">
-      <h5>Information</h5>
+      <h5>Your digital work place</h5>
     </div>
     <div class="col-1-3">
       <h5>Other department intranet</h5>
