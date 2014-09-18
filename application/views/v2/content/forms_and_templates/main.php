@@ -1,4 +1,4 @@
-<?php $this->load->view('v1/content/forms_and_templates/sub_header'); ?>
+<?php $this->load->view('v2/content/forms_and_templates/sub_header'); ?>
 
 <div class="content grid grid-pad">
   <ul class="breadcrumbs">

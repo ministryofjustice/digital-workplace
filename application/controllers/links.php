@@ -12,7 +12,8 @@ class Links extends CI_Controller {
           'Homepage'=>'homepage?v=2',
           'News &amp; features'=>'news_and_features?v=2',
           'Guidance &amp; support'=>'guidance_and_support?v=2',
-          'About'=>'about?v=2'
+          'About'=>'about?v=2',
+          'Forms &amp; templates'=>'forms_and_templates?v=2'
         ]
       ]
     ];
