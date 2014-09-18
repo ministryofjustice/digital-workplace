@@ -2,5 +2,5 @@
 
 function version() {
   $CI =& get_instance();
-  return $CI->session->userdata('version') ?: '1';
+  return $CI->input->get('v') ?: '1';
 }
