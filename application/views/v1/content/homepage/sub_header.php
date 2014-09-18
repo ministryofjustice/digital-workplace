@@ -37,7 +37,7 @@
             <a href="">A-Z</a>
           </li>
           <li>
-            <a href="">Forms & templates</a>
+            <a href="forms_and_templates?v=1">Forms & templates</a>
           </li>
         </ul>
       </div>
