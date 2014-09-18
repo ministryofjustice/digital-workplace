@@ -1,12 +1,11 @@
 .sub-header {
   height: 60px;
   background-color: #333; /* colour non-existent in colours.scss */
-  position: relative;
 
   .tabs {
     ul {
-      position: absolute;
-      bottom: 0px;
+      position: relative;
+      bottom: -2px;
       left: 1px;
       display: inline-block;
       border-top: 1px solid $white;
@@ -30,7 +29,7 @@
 
     .selected {
       border-bottom: 1px solid $white;
-      
+
       a {
         background-color: $white;
       }
