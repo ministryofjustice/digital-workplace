@@ -1,18 +1,16 @@
 .sub-header {
-  height: 60px;
   background-color: #333; /* colour non-existent in colours.scss */
 
+  > .grid-pad {
+    padding-top: 0;
+  }
+
   .tabs {
-    ul {
-      position: relative;
-      bottom: -2px;
-      left: 1px;
-      display: inline-block;
-      border-top: 1px solid $white;
-    }
+    margin-top: 20px;
 
     li {
       float: left;
+      border-top: 1px solid $white;
       border-right: 1px solid $white;
       border-bottom: 1px solid transparent;
     }
@@ -39,11 +37,16 @@
   .top-nav {
     ul {
       float: right;
+      margin-top: 20px;
     }
 
     li {
       display: inline-block;
       margin-right: 20px;
+
+      a {
+        line-height: 38px;
+      }
 
       &:last-of-type {
         margin-right: 0;
