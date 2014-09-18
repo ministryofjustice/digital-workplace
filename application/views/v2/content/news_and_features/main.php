@@ -36,7 +36,7 @@
   </div>
   <div class="content-row grid grid-pad">
     <article class="news-item col-1-3">
-      <img src="" />
+      <img class="img-placeholder" />
       <span class="timestamp">04 September 2014</span>
       <h3>It's time to train hard</h3>
       <p class="content">
@@ -44,7 +44,7 @@
       </p>
     </article>
     <article class="news-item col-1-3">
-      <img src="" />
+      <img class="img-placeholder" />
       <span class="timestamp">29 August 2014</span>
       <h3>Over one million searches for First World War wills</h3>
       <p class="content">
@@ -52,7 +52,7 @@
       </p>
     </article>
     <article class="news-item col-1-3">
-      <img src="" />
+      <img class="img-placeholder" />
       <span class="timestamp">29 August 2014</span>
       <h3>TW3: HR Directorate settle into their new workplace</h3>
       <p class="content">
@@ -66,7 +66,7 @@
       <ul class="news-list">
         <li>
           <a href="">
-            <img src="" />
+            <img class="img-placeholder" />
             <h3>Meet the Minister</h3>
             <span class="timestamp">20 August 2014</span>
             <p>
@@ -76,7 +76,7 @@
         </li>
         <li>
           <a href="">
-            <img src="" />
+            <img class="img-placeholder" />
             <h3>Open policy making in action</h3>
             <span class="timestamp">19 August 2014</span>
             <p>
@@ -86,7 +86,7 @@
         </li>
         <li>
           <a href="">
-            <img src="" />
+            <img class="img-placeholder" />
             <h3>Why straight talking matters</h3>
             <span class="timestamp">15 August 2014</span>
             <p>
