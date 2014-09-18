@@ -13,6 +13,10 @@ header.page-header {
     border-left: 2px solid $white;
     margin: 10px 0;
 
+    a {
+      text-decoration: none;
+    }
+
     img {
       margin: 0 10px;
       width: 40px;

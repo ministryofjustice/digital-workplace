@@ -1,8 +1,10 @@
 <header class="page-header">
   <div class="grid grid-pad">
     <div class="logo col-1-2">
-      <img src="assets/images/logo.png" />
-      <span>Ministry of Justice</span>
+      <a href="homepage?v=1">
+        <img src="assets/images/logo.png" />
+        <span>Ministry of Justice</span>
+      </a>
     </div>
 
     <nav class="top-nav col-1-2">
