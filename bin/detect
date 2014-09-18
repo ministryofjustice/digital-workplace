@@ -1,8 +1,0 @@
-#!/usr/bin/env bash
-# bin/use <build-dir>
-
-if [ -d $1/assets/sass ]; then
-  echo "Moar Saaassss" && exit 0
-else
-  echo "Incompatible project" && exit 1
-fi
