@@ -3,13 +3,13 @@
     <nav class="tabs col-1-2">
       <ul>
         <li class="selected">
-          <a href="news_and_features">News &amp; events</a>
+          <a href="news_and_features?v=2">News &amp; events</a>
         </li>
         <li>
-          <a href="guidance_and_support">Guidance &amp; support</a>
+          <a href="guidance_and_support?v=2">Guidance &amp; support</a>
         </li>
         <li>
-          <a href="about">About MoJ</a>
+          <a href="about?v=2">About MoJ</a>
         </li>
       </ul>
     </nav>

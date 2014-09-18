@@ -4,7 +4,7 @@
   <div class="grid grid-pad">
     <ul class="breadcrumbs">
       <li>
-        <a href="homepage">Home</a>
+        <a href="homepage?v=2">Home</a>
       </li>
       <li>
         <a href="">Forms &amp; templates</a>
