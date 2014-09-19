@@ -55,7 +55,6 @@
         position: absolute;
         left: -20px;
         width: 20px;
-        top: 0;
         bottom: -1px;
         border-bottom: 1px solid $black;
       }
@@ -63,8 +62,8 @@
 
     li {
       flex: 1 1 33%;
-      background-color: #ddd;
       margin-right: 5px;
+      background-color: #ddd;
       border-bottom: 5px solid $white;
 
       &.selected {
@@ -74,6 +73,10 @@
         border-color: $black;
         margin-bottom: -1px;
         padding-bottom: 5px;
+      }
+
+      &:not(.selected):hover {
+        background-color: #ccc;
       }
 
       &:last-of-type {
@@ -89,6 +92,7 @@
       height: 100%;
       padding: 10px 0;
       text-align: center;
+      text-decoration: none;
       color: $black;
     }
   }
