@@ -20,7 +20,7 @@
           <a href="">A-Z</a>
         </li>
         <li>
-          <a href="">Forms &amp template</a>
+          <a href="forms_and_templates?v=2">Forms &amp templates</a>
         </li>
         <li>
           <a href="">Other intranet links</a>
