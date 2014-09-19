@@ -10,9 +10,9 @@
 
   <div class="grid grid-pad">
     <article class="news-item col-1-3">
-      <img class="img-placeholder" />
+      <a href=""><img class="img-placeholder" /></a>
       <span class="timestamp">29 August 2014</span>
-      <h3>UK terrorist threat level raised</h3>
+      <h3><a href="">UK terrorist threat level raised</a></h3>
       <p class="content">
         Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam nibh. Nunc varius facilisis  eros. Sed erat. In in velit quis
       </p>

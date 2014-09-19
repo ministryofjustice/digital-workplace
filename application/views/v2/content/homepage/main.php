@@ -5,9 +5,9 @@
     <div class="col-1-3">
       <h2 class="category-heading">News</h2>
       <article class="news-item">
-        <img class="img-placeholder" />
+        <a href=""><img class="img-placeholder" /></a>
         <span class="timestamp">29 August 2014</span>
-        <h3>UK terrorist threat level raised</h3>
+        <h3><a href="">UK terrorist threat level raised</a></h3>
         <p class="content">
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam nibh. Nunc varius facilisis  eros. Sed erat. In in velit quis
         </p>
