@@ -1,5 +1,5 @@
 <header class="page-header">
-  <div class="grid grid-pad">
+  <div class="page-header-inner grid grid-pad">
     <div class="logo col-1-2">
       <a href="homepage?v=1">
         <img src="assets/images/logo.png" />
