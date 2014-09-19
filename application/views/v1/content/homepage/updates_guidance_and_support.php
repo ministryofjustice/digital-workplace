@@ -22,32 +22,32 @@
         <li>
           <a href="">
             <h4>HR</h4>
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam nibh.</p>
           </a>
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam nibh.</p>
         </li>
         <li>
           <a href="">
             <h4>Buildings &amp; facilities</h4>
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam nibh.</p>
           </a>
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam nibh.</p>
         </li>
         <li>
           <a href="">
             <h4>Financial management</h4>
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam nibh.</p>
           </a>
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam nibh.</p>
         </li>
         <li>
           <a href="">
             <h4>Security</h4>
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam nibh.</p>
           </a>
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam nibh.</p>
         </li>
         <li>
           <a href="">
             <h4>IT services</h4>
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam nibh.</p>
           </a>
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam nibh.</p>
         </li>
       </ul>
     </div>
@@ -56,26 +56,26 @@
         <li>
           <a href="">
             <h4>Fire, health &amp; safety</h4>
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam nibh.</p>
           </a>
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam nibh.</p>
         </li>
         <li>
           <a href="">
             <h4>Commercial &amp; contract management</h4>
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam nibh.</p>
           </a>
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam nibh.</p>
         </li>
         <li>
           <a href="">
             <h4>Communications</h4>
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam nibh.</p>
           </a>
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam nibh.</p>
         </li>
         <li>
           <a href="">
             <h4>Knowledge &amp; information</h4>
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam nibh.</p>
           </a>
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam nibh.</p>
         </li>
       </ul>
       <div class="more">

@@ -40,50 +40,50 @@
     <li class="col-1-4">
       <a href="">
         <h4>HR</h4>
-        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam nibh.</p>
       </a>
+      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam nibh.</p>
     </li>
     <li class="col-1-4">
       <a href="">
         <h4>Buildings &amp; facilities</h4>
-        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam nibh.</p>
       </a>
+      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam nibh.</p>
     </li>
     <li class="col-1-4">
       <a href="">
         <h4>Financial management</h4>
-        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam nibh.</p>
       </a>
+      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam nibh.</p>
     </li>
     <li class="col-1-4">
       <a href="">
         <h4>Security</h4>
-        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam nibh.</p>
       </a>
+      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam nibh.</p>
     </li>
     <li class="col-1-4">
       <a href="">
         <h4>Fire, health &amp; safety</h4>
-        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam nibh.</p>
       </a>
+      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam nibh.</p>
     </li>
     <li class="col-1-4">
       <a href="">
         <h4>Contract management</h4>
-        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam nibh.</p>
       </a>
+      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam nibh.</p>
     </li>
     <li class="col-1-4">
       <a href="">
         <h4>Communications</h4>
-        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam nibh.</p>
       </a>
+      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam nibh.</p>
     </li>
     <li class="col-1-4">
       <a href="">
         <h4>Information</h4>
-        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam nibh.</p>
       </a>
+      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam nibh.</p>
     </li>
   </ul>
 

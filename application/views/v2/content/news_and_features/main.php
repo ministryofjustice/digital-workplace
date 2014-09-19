@@ -68,31 +68,31 @@
           <a href="">
             <img class="img-placeholder" />
             <h3>Meet the Minister</h3>
-            <span class="timestamp">20 August 2014</span>
-            <p>
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam nibh. Nunc varius facilisis eros. Sed erat. In in velit quis...[more]
-            </p>
           </a>
+          <span class="timestamp">20 August 2014</span>
+          <p>
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam nibh. Nunc varius facilisis eros. Sed erat. In in velit quis...[more]
+          </p>
         </li>
         <li>
           <a href="">
             <img class="img-placeholder" />
             <h3>Open policy making in action</h3>
-            <span class="timestamp">19 August 2014</span>
-            <p>
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam nibh. Nunc varius facilisis eros. Sed erat. In in velit quis...[more]
-            </p>
           </a>
+          <span class="timestamp">19 August 2014</span>
+          <p>
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam nibh. Nunc varius facilisis eros. Sed erat. In in velit quis...[more]
+          </p>
         </li>
         <li>
           <a href="">
             <img class="img-placeholder" />
             <h3>Why straight talking matters</h3>
-            <span class="timestamp">15 August 2014</span>
-            <p>
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam nibh. Nunc varius facilisis eros. Sed erat. In in velit quis...[more]
-            </p>
           </a>
+          <span class="timestamp">15 August 2014</span>
+          <p>
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam nibh. Nunc varius facilisis eros. Sed erat. In in velit quis...[more]
+          </p>
         </li>
       </ul>
       <div class="more">

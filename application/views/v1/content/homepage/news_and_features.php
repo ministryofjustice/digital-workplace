@@ -40,26 +40,26 @@
         <li>
           <a href="">
             <h3>TW3: HR Directorate settle into their new workplace</h3>
-            <span class="timestamp">21 August 2014</span>
           </a>
+          <span class="timestamp">21 August 2014</span>
         </li>
         <li>
           <a href="">
             <h3>Meet the Minister</h3>
-            <span class="timestamp">20 August 2014</span>
           </a>
+          <span class="timestamp">20 August 2014</span>
         </li>
         <li>
           <a href="">
             <h3>Open policy making in action</h3>
-            <span class="timestamp">19 August 2014</span>
           </a>
+          <span class="timestamp">19 August 2014</span>
         </li>
         <li>
           <a href="">
             <h3>Why straight talking matters</h3>
-            <span class="timestamp">15 August 2014</span>
           </a>
+          <span class="timestamp">15 August 2014</span>
         </li>
       </ul>
       <div class="more">

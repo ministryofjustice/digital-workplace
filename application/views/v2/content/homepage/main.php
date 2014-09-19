@@ -19,32 +19,32 @@
         <li>
           <a href="">
             <h4>Courtfinder</h4>
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam nibh.</p>
           </a>
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam nibh.</p>
         </li>
         <li>
           <a href="">
             <h4>Peoplefinder</h4>
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam nibh.</p>
           </a>
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam nibh.</p>
         </li>
         <li>
           <a href="">
             <h4>Civil service learning</h4>
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam nibh.</p>
           </a>
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam nibh.</p>
         </li>
         <li>
           <a href="">
             <h4>Jobs</h4>
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam nibh.</p>
           </a>
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam nibh.</p>
         </li>
         <li>
           <a href="">
             <h4>iExpense</h4>
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam nibh.</p>
           </a>
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam nibh.</p>
         </li>
       </ul>
     </div>
@@ -54,14 +54,14 @@
         <li>
           <a href="">
             <h4>Sick leave</h4>
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam nibh.</p>
           </a>
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam nibh.</p>
         </li>
         <li>
           <a href="">
             <h4>Eye voucher testing</h4>
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam nibh.</p>
           </a>
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam nibh.</p>
         </li>
       </ul>
 
@@ -70,14 +70,14 @@
         <li>
           <a href="">
             <h4>Research &amp; analysis</h4>
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam nibh.</p>
           </a>
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam nibh.</p>
         </li>
         <li>
           <a href="">
             <h4>Statistics</h4>
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam nibh.</p>
           </a>
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam nibh.</p>
         </li>
       </ul>
     </div>

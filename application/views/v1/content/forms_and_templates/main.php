@@ -28,7 +28,7 @@
   <div class="col-2-3">
     <ul class="results">
       <li>
-        <h2>Absence (short term) - invitation to case conference</h2>
+        <h2><a href="">Absence (short term) - invitation to case conference</a></h2>
         <ul class="item-path">
           <li>
             <a href="">Home</a>
@@ -43,7 +43,7 @@
         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam nibh. Nunc varius facilisis eros. Sed erat. In in velit quis</p>
       </li>
       <li>
-        <h2>Long term absence - case conference invite letter</h2>
+        <h2><a href="">Long term absence - case conference invite letter</a></h2>
         <ul class="item-path">
           <li>
             <a href="">Home</a>
@@ -58,7 +58,7 @@
         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam nibh. Nunc varius facilisis eros. Sed erat. In in velit quis</p>
       </li>
       <li>
-        <h2>Long term absence - final written warning letter</h2>
+        <h2><a href="">Long term absence - final written warning letter</a></h2>
         <ul class="item-path">
           <li>
             <a href="">Home</a>
