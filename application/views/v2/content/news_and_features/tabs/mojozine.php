@@ -1,3 +1,14 @@
+<div class="content-row grid grid-pad tab-submenu">
+  <span>Contents</span>
+  <ul>
+    <li>
+      <a>Latest news</a>
+    </li>
+    <li>
+      <a>Old posts</a>
+    </li>
+  </ul>
+</div>
 <div class="content-row grid grid-pad">
   <article class="news-item col-1-3">
     <a href=""><img class="img-placeholder" /></a>

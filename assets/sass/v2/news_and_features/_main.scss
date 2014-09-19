@@ -134,4 +134,14 @@
       color: $grey-2;
     }
   }
+
+  .tab-submenu {
+    li a {
+      color: $grey-2;
+
+      &:before {
+        content: "- ";
+      }
+    }
+  }
 }
