@@ -15,12 +15,42 @@ header.page-header {
       width: 40px;
     }
 
-    span {
+    .full-name,
+    .short-name {
       @extend %large-heading;
       vertical-align: bottom;
       color: $white;
       font-weight: normal;
       line-height: 40px;
+
+      @include mobile-mq {
+        display: none;
+
+        &.short-name {
+          display: inline;
+        }
+      }
+    }
+
+    &.short-name {
+      display: none;
+    }
+
+    .mobile-menu {
+      display: none;
+
+      @include mobile-mq {
+        position: absolute;
+        display: block;
+        width: 40px;
+        height: 40px;
+        right: 20px;
+        top: 20px;
+        z-index: 1000;
+        background-image: url('../../../assets/images/3-bar-menu.png');
+        background-size: 40px 40px;
+        cursor: pointer;
+      }
     }
   }
 
@@ -43,6 +73,17 @@ header.page-header {
       border: none;
       background-color: #666;
       padding: 5px 10px;
+    }
+
+    @include mobile-mq {
+      .content-homepage {
+        display: none;
+      }
+
+      .search-inner {
+        margin-top: 6px;
+        margin-right: 50px;
+      }
     }
   }
 }
