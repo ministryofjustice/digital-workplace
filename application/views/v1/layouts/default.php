@@ -11,5 +11,6 @@
       <?php $this->load->view('v'.version().'/modules/footer'); ?>
     </div>
   </div>
+  <?php $this->load->view('shared/body_bottom'); ?>
 </body>
 </html>

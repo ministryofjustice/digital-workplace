@@ -1,5 +1,11 @@
 <div class="sub-header">
   <div class="grid grid-pad">
+    <div class="push-2-3 col-1-3">
+      <div class="close-icon-container">
+        <span class="close-icon"></span>
+      </div>
+    </div>
+
     <div class="push-1-3 col-2-3">
       <h3 class="top-downloads-label">Top 10 downloaded forms</h3>
     </div>

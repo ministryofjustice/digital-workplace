@@ -1,5 +1,24 @@
 .content-forms-and-templates .sub-header {
   background-color: $grey-2;
+  overflow: hidden;
+  /*transition: max-height 1s;*/
+  /*max-height: 250px;*/
+
+  &.collapsed {
+    max-height: 10px;
+  };
+
+  .close-icon-container {
+    .close-icon {
+      &:after {
+        @extend %large-heading;
+        float: right;
+        content: "\2715";
+        color: $white;
+        cursor: pointer;
+      }
+    }
+  }
 
   .top-downloads {
     margin-bottom: 30px;
