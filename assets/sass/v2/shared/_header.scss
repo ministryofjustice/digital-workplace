@@ -1,6 +1,12 @@
 header.page-header {
   background-color: #333;
 
+  @include mobile-mq {
+    .page-header-inner {
+      padding-top: 10px;
+    }
+  }
+
   .logo {
     display: block;
     float: left;
@@ -46,7 +52,7 @@ header.page-header {
         width: 40px;
         height: 40px;
         right: 20px;
-        top: 20px;
+        top: 10px;
         z-index: 1000;
         background-image: url('../../../assets/images/3-bar-menu.png');
         background-size: 40px 40px;
