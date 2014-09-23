@@ -1,5 +1,5 @@
 $(function(){
-  App.headerMenu = function(){
+  var HeaderMenu = function(){
     if(!$('.content').length){ return; }
 
     $('.mobile-menu').click(function(){
@@ -7,11 +7,11 @@ $(function(){
     });
 
     $(window).bind('breakpointChange', function(e, breakpoint){
-      if(breakpoint!=='mobile'){
-        $('.sub-header .tabs').get(0).style.display = '';
+      if(breakpoint!=='mobile'){ //make sure the tabs are shown for other breakpoints
+        $('.sub-header .tabs').show();
       }
     });
   };
 
-  App.headerMenu();
+  App.HeaderMenu = HeaderMenu;
 }());

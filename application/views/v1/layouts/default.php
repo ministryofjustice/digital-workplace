@@ -12,5 +12,6 @@
     </div>
   </div>
   <?php $this->load->view('shared/body_bottom'); ?>
+  <?php $this->load->view('v1/modules/body_bottom'); ?>
 </body>
 </html>
