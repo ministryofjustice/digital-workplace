@@ -26,14 +26,35 @@ $tablet-landscape-breakpoint: 1024;
   }
 }
 
-@mixin small-tablet-mq() {
+@mixin tablet-portrait-mq() {
   @include breakpoint($mobile-breakpoint, $tablet-portrait-breakpoint - 1) {
     @content;
   }
 }
 
-@mixin large-tablet-mq() {
+@mixin tablet-landscape-mq() {
   @include breakpoint($tablet-portrait-breakpoint, $tablet-landscape-breakpoint - 1) {
+    @content;
+  }
+}
+
+/** Both tablet orientations */
+@mixin tablet-mq() {
+  @include breakpoint($mobile-breakpoint, $tablet-landscape-breakpoint - 1) {
+    @content;
+  }
+}
+
+/** Greater than or equal to tablet portrait */
+@mixin gte-tablet-portrait-mq() {
+  @include breakpoint($mobile-breakpoint) {
+    @content;
+  }
+}
+
+/** Lower than or equal to tablet landscape */
+@mixin lte-tablet-landscape-mq() {
+  @include breakpoint(false, $tablet-landscape-breakpoint - 1) {
     @content;
   }
 }
