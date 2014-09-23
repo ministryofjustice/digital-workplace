@@ -24,15 +24,16 @@ header.page-header {
       line-height: 40px;
 
       @include mobile-mq {
-        display: none;
-
         &.short-name {
           display: inline;
+        }
+        &.full-name {
+          display: none;
         }
       }
     }
 
-    &.short-name {
+    .short-name {
       display: none;
     }
 
