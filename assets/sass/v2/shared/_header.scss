@@ -83,7 +83,8 @@ header.page-header {
     }
 
     @include mobile-mq {
-      .content-homepage {
+      .content-homepage &,
+      .content-guidance-and-support & {
         display: none;
       }
 
