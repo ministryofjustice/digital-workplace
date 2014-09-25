@@ -1,4 +1,6 @@
 $(function(){
+  'use strict';
+  
   var Tick = function(){
     var _this = this;
     this.config = {
@@ -14,4 +16,4 @@ $(function(){
   };
 
   window.App.Tick = Tick;
-}());
+});

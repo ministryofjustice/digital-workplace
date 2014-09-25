@@ -1,4 +1,6 @@
 $(function(){
+  'use strict';
+  
   var $topContainer = $('.sub-header');
   var SubHeader = function(){
     if($('.content-forms-and-templates').length){
@@ -12,4 +14,4 @@ $(function(){
   };
 
   window.App.SubHeader = SubHeader;
-}());
+});

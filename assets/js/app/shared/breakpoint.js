@@ -1,4 +1,6 @@
 $(function(){
+  'use strict';
+  
   var Breakpoint = function(){
     var _this = this;
 
@@ -13,7 +15,7 @@ $(function(){
       var newBreakpoint = _this.determineBreakpoint();
       if(_this.lastBreakpoint!==newBreakpoint){
         _this.lastBreakpoint = newBreakpoint;
-        $(window).trigger('breakpointChange', [_this.breakpointLabels[_this.lastBreakpoint]]);
+        $(window).trigger('breakpoint-change', [_this.breakpointLabels[_this.lastBreakpoint]]);
       }
     });
   };
@@ -34,4 +36,4 @@ $(function(){
   };
 
   window.App.Breakpoint = Breakpoint;
-}());
+});

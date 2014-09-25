@@ -1,4 +1,6 @@
 $(function(){
+  'use strict';
+
   var HeaderMenu = function(){
     if(!$('.content').length){ return; }
 
@@ -6,7 +8,7 @@ $(function(){
       $('.sub-header .tabs').slideToggle(100);
     });
 
-    $(window).bind('breakpointChange', function(e, breakpoint){
+    $(window).bind('breakpoint-change', function(e, breakpoint){
       if(breakpoint!=='mobile'){ //make sure the tabs are shown for other breakpoints
         $('.sub-header .tabs').show();
       }
@@ -14,4 +16,4 @@ $(function(){
   };
 
   App.HeaderMenu = HeaderMenu;
-}());
+});
