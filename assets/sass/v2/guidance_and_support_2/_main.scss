@@ -1,0 +1,53 @@
+.content-guidance-and-support-2 .content {
+  .categories {
+    border-right: 1px solid $black;
+
+    .subcategories,
+    .links {
+      display: none;
+    }
+  }
+
+  .subcategories {
+    > li {
+      margin-bottom: 10px;
+
+      > a {
+        @extend %medium-heading;
+      }
+    }
+  }
+
+  .subcategories-container {
+    .category-label {
+      margin-bottom: 30px;
+      padding-left: 20px;
+    }
+  }
+
+  .categories > li,
+  .subcategories > li {
+
+    > a {
+      position: relative;
+      display: block;
+      padding: 10px 20px;
+
+      &:after {
+        font-size: 30px;
+        position: absolute;
+        right: 20px;
+        top: 50%;
+        margin-top: -17px;
+        content: "\203a";
+        line-height: 100%;
+      }
+    }
+
+    &:hover,
+    &:active,
+    &.selected {
+      background-color: #ddd;
+    }
+  }
+}
