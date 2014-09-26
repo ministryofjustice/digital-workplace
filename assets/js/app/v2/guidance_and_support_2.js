@@ -25,8 +25,9 @@ $(function(){
     bindEvents: function(){
       var _this = this;
 
-      this.$categories.on('click', function(){
-        _this.showSubcategories($(this));
+      this.$categories.on('click', 'a', function(e){
+        e.preventDefault();
+        _this.showSubcategories($(this).closest('li'));
       });
     },
 
