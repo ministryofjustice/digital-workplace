@@ -1,4 +1,64 @@
 .content-guidance-and-support-2 .content {
+  margin-bottom: 30px;
+
+  .sort {
+    display: inline-block;
+
+    li {
+      display: inline-block;
+      border: 1px solid transparent;
+      border-radius: 10px;
+      padding: 10px;
+
+      &:hover {
+        border-color: $grey-3;
+      }
+
+      a {
+        display: block;
+        text-align: center;
+        text-decoration: none;
+      }
+
+      .icon {
+        display: block;
+        margin: 0 auto;
+        width: 40px;
+        height: 40px;
+        background-color: #ddd;
+        border-radius: 20px;
+        line-height: 40px;
+      }
+
+      .label {
+        @extend %smallest-copy;
+      }
+
+      &.popular {
+        margin-right: 15px;
+        .icon {
+          line-height: 33px;
+          font-size: 40px;
+
+          &:after {
+            content: "\2605";
+          }
+        }
+      }
+
+      &.alphabetical {
+        .icon {
+          font-weight: bold;
+          font-size: 20px;
+
+          &:after {
+            content: "A";
+          }
+        }
+      }
+    }
+  }
+
   .categories {
     border-right: 1px solid $black;
 

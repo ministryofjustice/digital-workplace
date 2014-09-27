@@ -1,11 +1,17 @@
 <div class="content">
   <div class="grid grid-pad">
     <ul class="sort">
-      <li>
-        <a href="" class="popular">popular order</a>
+      <li class="popular">
+        <a href="">
+          <span class="icon"></span>
+          <span class="label">popular order</span>
+        </a>
       </li>
-      <li>
-        <a href="" class="alphabetical">alphabetical order</a>
+      <li class="alphabetical">
+        <a href="">
+          <span class="icon"></span>
+          <span class="label">alphabetical order</span>
+        </a>
       </li>
     </ul>
   </div>
