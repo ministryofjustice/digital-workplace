@@ -1,13 +1,13 @@
 <div class="content">
   <div class="grid grid-pad">
     <ul class="sort">
-      <li class="popular">
+      <li class="selected" data-sort-type="popular">
         <a href="">
           <span class="icon"></span>
           <span class="label">popular order</span>
         </a>
       </li>
-      <li class="alphabetical">
+      <li data-sort-type="alphabetical">
         <a href="">
           <span class="icon"></span>
           <span class="label">alphabetical order</span>
@@ -20,6 +20,7 @@
     <div class="col-1-3">
       <ul class="categories">
         <?$cat_counter = 1?>
+
         <?foreach($list as $category_name=>$category):?>
           <?
             $category_name_computerized = strtolower($category_name);
@@ -27,12 +28,18 @@
             $category_name_computerized = str_replace('&amp;', 'and', $category_name_computerized);
             $category_name_computerized = preg_replace('/[^A-Za-z_-]/', '', $category_name_computerized);
           ?>
-          <li data-order="<?=$cat_counter;$cat_counter++?>" data-category-name="<?=$category_name_computerized?>">
+          <li data-popularity-order="<?=$cat_counter;$cat_counter++?>" data-name="<?=$category_name_computerized?>">
             <a href=""><?=$category_name?></a>
             <ul class="subcategories">
               <?$sub_counter = 1?>
               <?foreach($category['items'] as $subcategory_name=>$subcategory):?>
-                <li data-order="<?=$sub_counter;$sub_counter++?>">
+                <?
+                  $subcategory_name_computerized = strtolower($subcategory_name);
+                  $subcategory_name_computerized = str_replace(' ', '_', $subcategory_name_computerized);
+                  $subcategory_name_computerized = str_replace('&amp;', 'and', $subcategory_name_computerized);
+                  $subcategory_name_computerized = preg_replace('/[^A-Za-z_-]/', '', $subcategory_name_computerized);
+                ?>
+                <li data-popularity-order="<?=$sub_counter;$sub_counter++?>" data-name="<?=$subcategory_name_computerized?>">
                   <a href="">
                     <span class="subcategory-name"><?=$subcategory_name?></span>
                     <p><?=$subcategory['desc']?></p>

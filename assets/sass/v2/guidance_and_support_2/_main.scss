@@ -8,14 +8,15 @@
       display: inline-block;
       border: 1px solid transparent;
       border-radius: 10px;
-      padding: 10px;
 
-      &:hover {
+      &:hover,
+      &.selected {
         border-color: $grey-3;
       }
 
       a {
         display: block;
+        padding: 10px;
         text-align: center;
         text-decoration: none;
       }
@@ -34,7 +35,7 @@
         @extend %smallest-copy;
       }
 
-      &.popular {
+      &[data-sort-type="popular"] {
         margin-right: 15px;
         .icon {
           line-height: 33px;
@@ -46,7 +47,7 @@
         }
       }
 
-      &.alphabetical {
+      &[data-sort-type="alphabetical"] {
         .icon {
           font-weight: bold;
           font-size: 20px;
