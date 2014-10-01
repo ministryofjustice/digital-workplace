@@ -1,7 +1,7 @@
 <header class="page-header">
   <div class="page-header-inner grid grid-pad">
     <div class="logo col-2-3 mobile-col-1-2">
-      <a href="homepage?v=2">
+      <a href="homepage?v=<?=version()?>">
         <img src="assets/images/logo.png" />
         <span class="full-name">Ministry of Justice</span>
         <span class="short-name">MoJ</span>

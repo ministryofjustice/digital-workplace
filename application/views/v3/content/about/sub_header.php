@@ -17,13 +17,10 @@
     <nav class="top-nav col-1-2">
       <ul>
         <li>
-          <a href="">A-Z</a>
+          <a href="guidance_and_support_2?v=<?=version()?>">A-Z</a>
         </li>
         <li>
-          <a href="forms_and_templates?v=<?=version()?>">Forms &amp templates</a>
-        </li>
-        <li>
-          <a href="">Other intranet links</a>
+          <a href="">Intranet links</a>
         </li>
       </ul>
     </nav>

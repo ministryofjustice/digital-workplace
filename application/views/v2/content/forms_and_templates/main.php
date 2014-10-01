@@ -1,12 +1,12 @@
-<?php $this->load->view('v2/content/forms_and_templates/sub_header'); ?>
+<?php $this->load->view('v'.version().'/content/forms_and_templates/sub_header'); ?>
 
 <div class="content grid grid-pad">
   <ul class="breadcrumbs">
     <li>
-      <a href="">Home</a>
+      <a href="homepage?v=<?=version()?>">Home</a>
     </li>
     <li>
-      <a href="">Forms &amp; templates</a>
+      <a href="forms_and_templates?v=<?=version()?>">Forms &amp; templates</a>
     </li>
   </ul>
 

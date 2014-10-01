@@ -3,10 +3,10 @@
 <div class="content grid grid-pad">
   <ul class="breadcrumbs">
     <li>
-      <a href="">Home</a>
+      <a href="homepage?v=<?=version()?>">Home</a>
     </li>
     <li>
-      <a href="">Forms &amp; templates</a>
+      <a href="forms_and_templates?v=<?=version()?>">Forms &amp; templates</a>
     </li>
   </ul>
 

@@ -4,10 +4,10 @@
   <div class="grid grid-pad">
     <ul class="breadcrumbs">
       <li>
-        <a href="homepage?v=2">Home</a>
+        <a href="homepage?v=<?=version()?>">Home</a>
       </li>
       <li>
-        <a href="">News &amp; features</a>
+        <a href="news_and_features?v=<?=version()?>">News &amp; features</a>
       </li>
     </ul>
   </div>
@@ -22,17 +22,17 @@
     <div class="col-1-3">
       <ul class="news-top-links">
         <li class="<?=$tab_name=='mojozine'? 'selected' : ''?>">
-          <a href="news_and_features/mojozine/?v=2">
+          <a href="news_and_features/mojozine/?v=<?=version()?>">
             <span>MoJozine</span>
           </a>
         </li>
         <li class="<?=$tab_name=='corporate_updates'? 'selected' : ''?>">
-          <a href="news_and_features/corporate_updates/?v=2">
+          <a href="news_and_features/corporate_updates/?v=<?=version()?>">
             <span>Corporate updates</span>
           </a>
         </li>
         <li class="<?=$tab_name=='calendar'? 'selected' : ''?>">
-          <a href="news_and_features/calendar/?v=2">
+          <a href="news_and_features/calendar/?v=<?=version()?>">
             <span>Calendar</span>
           </a>
         </li>

@@ -1,7 +1,7 @@
 <header class="page-header">
   <div class="page-header-inner grid grid-pad">
     <div class="logo col-1-2">
-      <a href="homepage?v=1">
+      <a href="homepage?v=<?=version()?>">
         <img src="assets/images/logo.png" />
         <span>Ministry of Justice</span>
       </a>
@@ -10,13 +10,13 @@
     <nav class="top-nav col-1-2">
       <ul>
         <li>
-          <a href="">Home</a>
+          <a href="homepage?v=<?=version()?>">Home</a>
         </li>
         <li>
-          <a href="">News &amp; Features</a>
+          <a href="news_and_features?v=<?=version()?>">News &amp; Features</a>
         </li>
         <li>
-          <a href="">Guidance &amp; Support</a>
+          <a href="guidance_and_support?v=<?=version()?>">Guidance &amp; Support</a>
         </li>
         <li>
           <a href="">Other Intranet links</a>

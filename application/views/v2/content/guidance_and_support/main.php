@@ -4,10 +4,10 @@
   <div class="grid grid-pad">
     <ul class="breadcrumbs">
       <li>
-        <a href="homepage?v=2">Home</a>
+        <a href="homepage?v=<?=version()?>">Home</a>
       </li>
       <li>
-        <a href="">Guidance &amp; support</a>
+        <a href="guidance_and_support?v=<?=version()?>">Guidance &amp; support</a>
       </li>
     </ul>
   </div>
