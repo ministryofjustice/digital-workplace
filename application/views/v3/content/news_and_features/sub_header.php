@@ -3,13 +3,13 @@
     <nav class="tabs col-1-2">
       <ul>
         <li class="selected">
-          <a href="news_and_features?v=<?=version();?>">News &amp; events</a>
+          <a href="news_and_features?v=<?=version()?>">News &amp; events</a>
         </li>
         <li>
-          <a href="guidance_and_support?v=<?=version();?>">Guidance &amp; support</a>
+          <a href="guidance_and_support?v=<?=version()?>">Guidance &amp; support</a>
         </li>
         <li>
-          <a href="about?v=2">About MoJ</a>
+          <a href="about?v=<?=version()?>">About MoJ</a>
         </li>
       </ul>
     </nav>
@@ -20,10 +20,7 @@
           <a href="">A-Z</a>
         </li>
         <li>
-          <a href="forms_and_templates?v=<?=version();?>">Forms &amp templates</a>
-        </li>
-        <li>
-          <a href="">Other intranet links</a>
+          <a href="">Intranet links</a>
         </li>
       </ul>
     </nav>

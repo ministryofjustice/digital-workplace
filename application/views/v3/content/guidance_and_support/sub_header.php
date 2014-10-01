@@ -5,7 +5,7 @@
         <li>
           <a href="news_and_features?v=<?=version()?>">News &amp; events</a>
         </li>
-        <li>
+        <li class="selected">
           <a href="guidance_and_support?v=<?=version()?>">Guidance &amp; support</a>
         </li>
         <li>
@@ -20,10 +20,7 @@
           <a href="">A-Z</a>
         </li>
         <li>
-          <a href="forms_and_templates?v=<?=version()?>">Forms &amp templates</a>
-        </li>
-        <li>
-          <a href="">Other intranet links</a>
+          <a href="">Intranet links</a>
         </li>
       </ul>
     </nav>

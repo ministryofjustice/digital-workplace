@@ -1,0 +1,128 @@
+.content-guidance-and-support .content {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  background-color: $white;
+
+  .search {
+    background-color: $grey-3;
+    padding: 20px;
+
+    .form-label {
+      @extend %large-copy;
+      font-weight: bold;
+    }
+
+    select,
+    input[type="text"] {
+      margin: 5px 0;
+      width: 100%;
+    }
+
+    input[type="submit"] {
+      position: absolute;
+      right: 0;
+      top: 5px;
+      bottom: 5px;
+      width: 50px;
+      background-color: $grey-1;
+      border-bottom: none;
+    }
+
+    .input-container {
+      position: relative;
+    }
+  }
+
+  .intro {
+    @extend %lead-copy;
+    margin-bottom: 45px;
+  }
+
+  .category-heading {
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid $border-colour;
+    @extend %larger-heading;
+  }
+
+  .link-list {
+    li {
+      a {
+        display: block;
+        color: $black;
+      }
+
+      h4 {
+        @extend %medium-heading;
+        margin-bottom: 10px;
+      }
+
+      p {
+        @extend %small-copy;
+        margin-bottom: 30px;
+      }
+    }
+  }
+
+  .more {
+    margin-top: 30px;
+    border-top: 1px solid $border-colour;
+
+    a {
+      display: block;
+      margin-top: 10px;
+      @extend %medium-copy;
+      text-decoration: underline;
+      color: $black;
+    }
+  }
+
+  .news-top-links {
+
+    a {
+      @extend %large-copy;
+      color: #aaa; /* colour non-existent in colours.scss */
+    }
+  }
+
+  .news-description {
+    @extend %large-copy;
+  }
+
+  .news-list {
+    li {
+      border-top: 1px solid $border-colour;
+      padding-top: 10px;
+      margin-bottom: 30px;
+
+      &:last-of-type {
+        margin-bottom: 0;
+      }
+    }
+
+    img {
+      float: left;
+      width: 120px;
+      height: 100px;
+      margin-right: 10px;
+    }
+
+    a {
+      color: $black;
+    }
+
+    h3 {
+      @extend %large-heading;
+      margin-bottom: 5px;
+    }
+
+    .timestamp {
+      @extend %medium-copy;
+      color: $grey-2;
+    }
+  }
+
+  .more {
+    margin-bottom: 45px;
+  }
+}

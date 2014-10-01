@@ -1,0 +1,114 @@
+.content-guidance-and-support-2 .content {
+  margin-bottom: 30px;
+
+  .sort {
+    display: inline-block;
+
+    li {
+      display: inline-block;
+      border: 1px solid transparent;
+      border-radius: 10px;
+
+      &:hover,
+      &.selected {
+        border-color: $grey-3;
+      }
+
+      a {
+        display: block;
+        padding: 10px;
+        text-align: center;
+        text-decoration: none;
+      }
+
+      .icon {
+        display: block;
+        margin: 0 auto;
+        width: 40px;
+        height: 40px;
+        background-color: #ddd;
+        border-radius: 20px;
+        line-height: 40px;
+      }
+
+      .label {
+        @extend %smallest-copy;
+      }
+
+      &[data-sort-type="popular"] {
+        margin-right: 15px;
+        .icon {
+          line-height: 33px;
+          font-size: 40px;
+
+          &:after {
+            content: "\2605";
+          }
+        }
+      }
+
+      &[data-sort-type="alphabetical"] {
+        .icon {
+          font-weight: bold;
+          font-size: 20px;
+
+          &:after {
+            content: "A";
+          }
+        }
+      }
+    }
+  }
+
+  .categories {
+    border-right: 1px solid $black;
+
+    .subcategories,
+    .links {
+      display: none;
+    }
+  }
+
+  .subcategories {
+    > li {
+      margin-bottom: 10px;
+
+      > a .subcategory-name {
+        @extend %medium-heading;
+      }
+    }
+  }
+
+  .subcategories-container {
+    .category-label {
+      margin-bottom: 30px;
+      padding-left: 20px;
+    }
+  }
+
+  .categories > li,
+  .subcategories > li {
+
+    > a {
+      position: relative;
+      display: block;
+      padding: 10px 20px;
+
+      &:after {
+        font-size: 30px;
+        position: absolute;
+        right: 20px;
+        top: 50%;
+        margin-top: -17px;
+        content: "\203a";
+        line-height: 100%;
+      }
+    }
+
+    &:hover,
+    &:active,
+    &.selected {
+      background-color: #ddd;
+    }
+  }
+}

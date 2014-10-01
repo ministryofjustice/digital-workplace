@@ -1,0 +1,147 @@
+.content-news-and-features .content {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  background-color: $white;
+
+  .category-heading {
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid $border-colour;
+    @extend %larger-heading;
+  }
+
+  .link-list {
+    li {
+      a {
+        display: block;
+        color: $black;
+      }
+
+      h4 {
+        @extend %medium-heading;
+        margin-bottom: 10px;
+      }
+
+      p {
+        @extend %small-copy;
+        margin-bottom: 30px;
+      }
+    }
+  }
+
+  .more {
+    margin-top: 30px;
+    border-top: 1px solid $border-colour;
+
+    a {
+      display: block;
+      margin-top: 10px;
+      @extend %medium-copy;
+      text-decoration: underline;
+      color: $black;
+    }
+  }
+
+  .tabs {
+    .news-top-links {
+      display: flex;
+      align-items: stretch;
+      justify-content: center;
+      border-bottom: 1px solid $black;
+      position: relative;
+
+      &:before {
+        content: "";
+        position: absolute;
+        left: -20px;
+        width: 20px;
+        bottom: -1px;
+        border-bottom: 1px solid $black;
+      }
+    }
+
+    li {
+      flex: 1 1 33%;
+      margin-right: 5px;
+      background-color: #ddd;
+      border-bottom: 5px solid $white;
+
+      &.selected {
+        background-color: $white;
+        border-width: 1px 1px 0;
+        border-style: solid;
+        border-color: $black;
+        margin-bottom: -1px;
+        padding-bottom: 5px;
+      }
+
+      &:not(.selected):hover {
+        background-color: #ccc;
+      }
+
+      &:last-of-type {
+        margin-right: 0;
+      }
+    }
+
+    a {
+      @extend %medium-copy;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+      padding: 10px 0;
+      text-align: center;
+      text-decoration: none;
+      color: $black;
+    }
+  }
+
+  .news-description {
+    @extend %large-copy;
+  }
+
+  .news-list {
+    li {
+      border-top: 1px solid $border-colour;
+      padding-top: 10px;
+      margin-bottom: 30px;
+
+      &:last-of-type {
+        margin-bottom: 0;
+      }
+    }
+
+    img {
+      float: left;
+      width: 120px;
+      height: 100px;
+      margin-right: 10px;
+      padding: 0;
+    }
+
+    a {
+      color: $black;
+    }
+
+    h3 {
+      @extend %large-heading;
+      margin-bottom: 5px;
+    }
+
+    .timestamp {
+      @extend %medium-copy;
+      color: $grey-2;
+    }
+  }
+
+  .tab-submenu {
+    li a {
+      color: $grey-2;
+
+      &:before {
+        content: "- ";
+      }
+    }
+  }
+}
