@@ -14,23 +14,51 @@
       </article>
     </div>
     <div class="col-1-3">
-      <h2 class="category-heading">Popular pages</h2>
+      <h2 class="category-heading">Guidance &amp; support</h2>
       <ul class="link-list">
         <li>
           <a href="">
-            <h4>Courtfinder</h4>
+            <h4>HR</h4>
           </a>
           <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam nibh.</p>
         </li>
+        <li>
+          <a href="">
+            <h4>Learning &amp; development</h4>
+          </a>
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam nibh.</p>
+        </li>
+        <li>
+          <a href="">
+            <h4>Financial management</h4>
+          </a>
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam nibh.</p>
+        </li>
+        <li>
+          <a href="">
+            <h4>Commercial &amp; contract management</h4>
+          </a>
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam nibh.</p>
+        </li>
+        <li>
+          <a href="">
+            <h4>IT services</h4>
+          </a>
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam nibh.</p>
+        </li>
+      </ul>
+    </div>
+    <div class="col-1-3">
+      <h2 class="category-heading">Popular pages</h2>
+      <ul class="link-list">
         <li>
           <a href="">
             <h4>Peoplefinder</h4>
           </a>
           <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam nibh.</p>
-        </li>
-        <li>
+        </li>        <li>
           <a href="">
-            <h4>Civil service learning</h4>
+            <h4>Courtfinder</h4>
           </a>
           <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam nibh.</p>
         </li>
@@ -46,36 +74,9 @@
           </a>
           <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam nibh.</p>
         </li>
-      </ul>
-    </div>
-    <div class="col-1-3">
-      <h2 class="category-heading">Popular forms</h2>
-      <ul class="link-list">
         <li>
           <a href="">
-            <h4>Sick leave</h4>
-          </a>
-          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam nibh.</p>
-        </li>
-        <li>
-          <a href="">
-            <h4>Eye voucher testing</h4>
-          </a>
-          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam nibh.</p>
-        </li>
-      </ul>
-
-      <h2 class="category-heading">Recently published</h2>
-      <ul class="link-list">
-        <li>
-          <a href="">
-            <h4>Research &amp; analysis</h4>
-          </a>
-          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam nibh.</p>
-        </li>
-        <li>
-          <a href="">
-            <h4>Statistics</h4>
+            <h4>Social Service Learning</h4>
           </a>
           <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam nibh.</p>
         </li>
