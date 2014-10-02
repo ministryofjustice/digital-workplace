@@ -56,7 +56,8 @@
             <h4>Peoplefinder</h4>
           </a>
           <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam nibh.</p>
-        </li>        <li>
+        </li>
+        <li>
           <a href="">
             <h4>Courtfinder</h4>
           </a>

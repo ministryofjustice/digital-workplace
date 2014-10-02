@@ -74,10 +74,8 @@ $(function(){
     },
 
     updateUrl: function($category){
-      var segment = $category.data('category-name');
-
+      var segment = $category.data('name');
       window.history.pushState({}, '', baseUrl.clone().segment(segment).get());
-      this.retrieveCategorySegment();
     },
 
     retrieveCategorySegment: function(){
@@ -113,8 +111,6 @@ $(function(){
         categories.sort(this.helpers.popularComparator);
         subcategories.sort(this.helpers.popularComparator);
       }
-
-      console.log(subcategories);
 
       this.$categoriesContainer.append(categories);
       this.$subcategoriesContainer.find('.subcategories').append(subcategories);
