@@ -19,27 +19,29 @@
   <div class="grid grid-pad">
     <div class="col-1-3">
       <ul class="categories">
-        <?$cat_counter = 1?>
+        <?$cat_counter = 0?>
 
         <?foreach($list as $category_name=>$category):?>
           <?
+            $cat_counter++;
             $category_name_computerized = strtolower($category_name);
             $category_name_computerized = str_replace(' ', '_', $category_name_computerized);
             $category_name_computerized = str_replace('&amp;', 'and', $category_name_computerized);
             $category_name_computerized = preg_replace('/[^A-Za-z_-]/', '', $category_name_computerized);
           ?>
-          <li data-popularity-order="<?=$cat_counter;$cat_counter++?>" data-name="<?=$category_name_computerized?>">
+          <li data-popularity-order="<?=$cat_counter?>" data-name="<?=$category_name_computerized?>">
             <a href=""><?=$category_name?></a>
             <ul class="subcategories">
-              <?$sub_counter = 1?>
+              <?$sub_counter = 0?>
               <?foreach($category['items'] as $subcategory_name=>$subcategory):?>
                 <?
+                  $sub_counter++;
                   $subcategory_name_computerized = strtolower($subcategory_name);
                   $subcategory_name_computerized = str_replace(' ', '_', $subcategory_name_computerized);
                   $subcategory_name_computerized = str_replace('&amp;', 'and', $subcategory_name_computerized);
                   $subcategory_name_computerized = preg_replace('/[^A-Za-z_-]/', '', $subcategory_name_computerized);
                 ?>
-                <li data-popularity-order="<?=$sub_counter;$sub_counter++?>" data-name="<?=$subcategory_name_computerized?>">
+                <li data-popularity-order="<?=$sub_counter?>" data-name="<?=$subcategory_name_computerized?>">
                   <a href="">
                     <span class="subcategory-name"><?=$subcategory_name?></span>
                     <p><?=$subcategory['desc']?></p>
